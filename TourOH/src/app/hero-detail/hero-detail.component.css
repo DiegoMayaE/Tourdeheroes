@@ -1,0 +1,24 @@
+label {
+  color: black;
+  font-weight: bold;
+}
+input {
+  font-size: 2em;
+  padding: 1rem;
+}
+button {
+  margin-top: 10px;
+  margin-right: 2rem;
+  background-color: #2082f3;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #9ec3d3;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
